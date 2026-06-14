@@ -1,0 +1,22 @@
+# STRATA core runtime (runs the full platform, app, demo, and tests offline)
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4
+scipy>=1.11
+lightgbm>=4.0
+matplotlib>=3.7
+folium>=0.16
+streamlit>=1.30
+requests>=2.31
+pytest>=7.4
+
+# --- real-data extras ---
+# Needed for run_tn_basin.py and any real imagery (SentinelL2AConnector /
+# HLSConnector). The core platform, app, demo, and tests run without them.
+# pystac-client>=0.7
+# stackstac>=0.5
+# rasterio>=1.3
+#
+# Heavier, GPU-side (Prithvi-EO embeddings only):
+# terratorch>=1.0
+# torch>=2.2          # CUDA build matching your driver

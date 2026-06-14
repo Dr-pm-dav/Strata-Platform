@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated run outputs (regenerate with demo.py / run_*.py). Curated
+# showcase figures live in assets/ and ARE committed.
+outputs/*
+!outputs/.gitkeep
+
+# OS
+.DS_Store
